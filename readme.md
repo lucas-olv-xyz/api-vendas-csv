@@ -49,9 +49,9 @@ print(resposta.json()) # {'total_vendas': 4500}
 
 ▶️ Como Rodar
 
-    Instale as dependências:
+Instale as dependências:
 
-pip install flask pandas requests
+    pip install flask pandas requests
 
 Certifique-se de que o arquivo advertise.csv está na mesma pasta do script.
 
@@ -59,7 +59,7 @@ Execute o servidor:
 
     python nome_do_arquivo.py
 
-    Em outro terminal (ou depois), execute o script de consumo da API.
+Em outro terminal (ou depois), execute o script de consumo da API.
 
 ✅ Melhorias Futuras
 
