@@ -32,12 +32,12 @@ Vendas
 2000
 🧪 Exemplo de Requisição com Python
 
-import requests
+    import requests
 
-link = 'http://127.0.0.1:5000/pegarvendas'
-resposta = requests.get(link)
+    link = 'http://127.0.0.1:5000/pegarvendas'
+    resposta = requests.get(link)
 
-print(resposta.json()) # {'total_vendas': 4500}
+    print(resposta.json()) # {'total_vendas': 4500}
 
 🛠️ Bibliotecas Utilizadas
 
